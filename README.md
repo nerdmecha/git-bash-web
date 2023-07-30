@@ -1,6 +1,7 @@
-### git-bash-test
-GIT Using Test
+### git-bash-web
+<strong>Web Development Started</strong>
 <p>Used Tools Visual Studio Code, Sourcetree, Git Bash</p>
-<p>Used Languages HTML, CSS, Javascript, JQuery, Popper, Bootstrap</p>
+<p>Used Languages HTML, CSS, Javascript</p>
+<p>other Languages will be Added Later</p>
 <br />
-<strong>I haven't even started yet...</strong>
+<strong>I'm back GitHub!</strong>
