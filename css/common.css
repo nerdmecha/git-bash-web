@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+div {
+    height: 400px;
+}
+
+img {
+    height: 400px;
+    display: none;
+}
+
+#a {
+    background-color: #ff0000;
+}
+
+#b1 {
+    background-color: #00ff00;
+}
+
+#b1:hover > #b2 {
+    display: block;
+    /* img is not completely filled */
+}
+
+#c1 {
+    background-color: #0000ff;
+}
+
+#c1:hover > #c2 {
+    background-color: #00ffff;
+}
