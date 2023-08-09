@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "kimm_bold";
+    src: url("../font/kimm_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "kimm_light";
+    src: url("../font/kimm_light.ttf") format("truetype");
+}

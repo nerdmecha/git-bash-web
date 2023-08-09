@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("fonts.css");
 
 * {
     padding: 0;
@@ -7,6 +8,14 @@
 
 div {
     height: 400px;
+}
+
+p {
+    font-family: "kimm_bold";
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 400px;
 }
 
 img {
@@ -18,19 +27,31 @@ img {
     background-color: #ff0000;
 }
 
-#b1 {
-    background-color: #00ff00;
+#b {
+    background-color: #0000ff;
 }
 
-#b1:hover > #b2 {
+#c {
+    background-color: #00c900;
+}
+
+#b:hover + #c > img {
     display: block;
     /* img is not completely filled */
 }
 
-#c1 {
-    background-color: #0000ff;
+#d1 {
+    background-color: #ff00ff;
 }
 
-#c1:hover > #c2 {
-    background-color: #00ffff;
+#d1:hover > #d2 {
+    background-color: #008cff;
+}
+
+#hero {
+    color: #ffffff;
+}
+
+#villian {
+    color: #ffc400;
 }
