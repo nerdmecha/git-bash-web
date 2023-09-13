@@ -23,6 +23,7 @@ li {
     background-color: #00b48d;
     margin-left: 20px;
     display: inline-block;
+    cursor: pointer;
 }
 
 div {

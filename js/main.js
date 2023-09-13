@@ -1,5 +1,5 @@
-// setting soon...
-
-function appear() {
-    alert("TATAKE!!!");
-}
+$(document).ready(function() {
+    $("#one").hover(function() {
+        $("one").hide(1000);
+    })
+})
