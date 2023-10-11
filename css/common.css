@@ -1,74 +1,30 @@
 @charset "utf-8";
 @import url("fonts.css");
 
-* { padding: 0; margin: 0; }
+* { padding: 0; margin: 0; overflow: hidden; }
 
-ul {
-    height: 250px;
-    background-color: #000000;
+#header {
+    height: 200px;
+    background-color: #228b22;
     text-align: center;
-    font-family: "kimm_bold";
-    color: #000000;
-    font-size: 81px;
-    line-height: 250px;
-}
-
-li {
-    list-style-type: none;
-    width: 20%;
-    height: 250px;
-    background-color: #00b48d;
-    margin-left: 20px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-div {
-    height: 400px;
-}
-
-p {
-    font-family: "kimm_bold";
-    font-size: 125px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 400px;
-}
-
-img {
-    height: 400px;
-    display: none;
-}
-
-#a {
-    background-color: #ff0000;
-}
-
-#b {
-    background-color: #0000ff;
-}
-
-#c {
-    background-color: #00c900;
-}
-
-#b:hover + #c > img {
-    display: block;
-    /* img is not completely filled */
-}
-
-#d1 {
-    background-color: #ff00ff;
-}
-
-#d1:hover > #d2 {
-    background-color: #008cff;
-}
-
-#hero {
     color: #ffffff;
+    display: flex;
 }
 
-#villian {
-    color: #ffc400;
+#menuA, #menuB, #menuC {
+    width: 500px;
+    height: 200px;
+    background-color: #363636;
+    display: block;
+    float: left;
+    margin: 0 50px;
+    line-height: 200px;
+    font-size: 50px;
+    font-family: "kimm_bold";
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+    background-color: #ff7f50;
 }
