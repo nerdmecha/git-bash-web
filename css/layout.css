@@ -9,6 +9,8 @@
     text-align: center;
     color: #ffffff;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menuA, #menuB, #menuC {
@@ -26,5 +28,6 @@
 #section {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #ff7f50;
 }
