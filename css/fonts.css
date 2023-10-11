@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
     font-family: "kimm_bold";
     src: url("../font/kimm_bold.ttf") format("truetype");
