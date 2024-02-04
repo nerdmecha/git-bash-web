@@ -13,21 +13,77 @@
     align-items: center;
 }
 
-#menuA, #menuB, #menuC {
-    width: 500px;
+#sub {
+    height: 80px;
+    background-color: #0099ff;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#menuA, #menuB, #menuC, #menuD {
+    width: 25%;
     height: 200px;
     background-color: #363636;
     display: block;
     float: left;
-    margin: 0 50px;
+    margin: 0 auto;
     line-height: 200px;
     font-size: 50px;
     font-family: "kimm_bold";
 }
 
+#menuB {
+    background-color: #ff0000;
+}
+
+#menuC {
+    background-color: #00ff00;
+}
+
+#menuD {
+    background-color: #0000ff;
+}
+
 #section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 25%;
+    height: 500px;
+    display: block;
+    float: left;
+    margin: 0 auto;
     background-color: #ff7f50;
+}
+
+#info {
+    width: 50%;
+    height: 350px;
+    background-color: #ff50e8;
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+#kind {
+    width: 25%;
+    height: 350px;
+    background-color: #a3d3ff;
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+#kind01, #kind04 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+#kind02, #kind03 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 0 auto;
+    background-color: #ffffff;
 }
