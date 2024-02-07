@@ -86,3 +86,8 @@
     margin: 0 auto;
     background-color: #a3d3ff;
 }
+
+#bottom {
+    height: 40vh;
+    background-color: #864764;
+}
