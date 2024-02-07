@@ -1,36 +1,35 @@
 @charset "utf-8";
 @import url("fonts.css");
 
-* { padding: 0; margin: 0; overflow: hidden; }
+* { padding: 0; margin: 0; position: relative; overflow: hidden; width: 100vw; height: 100vh; }
 
 #header {
-    height: 200px;
+    height: 20vh;
     background-color: #228b22;
     text-align: center;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #sub {
-    height: 80px;
+    height: 10vh;
     background-color: #0099ff;
-    display: flex;
+    display: block;
     justify-self: center;
     align-items: center;
 }
 
 #menuA, #menuB, #menuC, #menuD {
-    width: 25%;
-    height: 200px;
+    width: 25vw;
     background-color: #363636;
     display: block;
     float: left;
     margin: 0 auto;
-    line-height: 200px;
-    font-size: 50px;
+    line-height: 20vh;
+    font-size: 25px;
     font-family: "kimm_bold";
+    color: #ffffff;
 }
 
 #menuB {
@@ -46,8 +45,8 @@
 }
 
 #section {
-    width: 25%;
-    height: 500px;
+    width: 25vw;
+    height: 50vh;
     display: block;
     float: left;
     margin: 0 auto;
@@ -56,16 +55,16 @@
 
 #info {
     width: 50%;
-    height: 350px;
-    background-color: #ff50e8;
+    height: 50vh;
     display: block;
     float: left;
     margin: 0 auto;
+    object-fit: fill;
 }
 
 #kind {
-    width: 25%;
-    height: 350px;
+    width: 25vw;
+    height: 50vh;
     background-color: #a3d3ff;
     display: block;
     float: left;
@@ -85,5 +84,5 @@
     height: 50%;
     float: left;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #a3d3ff;
 }
