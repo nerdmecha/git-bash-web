@@ -16,7 +16,7 @@ img {vertical-align: top; width: 100%; }
     --default-font-family: "kimm_bold";
 }
 
-.header01 {
+#header01 {
     color: var(--color-white);
     background-color: #0000ff;
     height: 200px;
@@ -24,4 +24,8 @@ img {vertical-align: top; width: 100%; }
     text-align: center;
     font-size: var(--default-font-size);
     font-family: var(--default-font-family);
+}
+
+.hovered {
+    background-color: #ff0000;
 }

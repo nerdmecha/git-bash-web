@@ -1,5 +1,3 @@
-function basic(a) {
-    return a;
-};
-
-alert(basic(5));
+$(document).ready(function() {
+    // added soon...
+})
